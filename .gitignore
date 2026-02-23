@@ -1,0 +1,30 @@
+# ---- Secrets / local env ----
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+**/*.pem
+**/*serviceAccount*.json
+
+# Firebase mobile config (keep local, do not commit real keys)
+mobile/android/app/google-services.json
+mobile/ios/Runner/GoogleService-Info.plist
+
+# ---- Dependencies / caches ----
+**/node_modules/
+**/.next/
+**/.dart_tool/
+**/.turbo/
+**/.cache/
+
+# ---- Build artifacts ----
+**/build/
+**/dist/
+**/coverage/
+**/.idea/
+**/.vscode/
+
+# ---- Logs ----
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
